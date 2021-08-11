@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<hotelmgmt>
+    <hotelrating category="3">
+        <hotel>
+        <title lang="en">Le Meridian</title>
+        <rating>3</rating>
+        <facilities>Gym</facilities>
+        <metrostation>3KM</metrostation>
+        <address>New Delhi</address>
+        <availability>True</availability>
+        </hotel>
+    </hotelrating>
+    <hotelrating category="4">
+        <hotel>
+        <title lang="en">Ashoka</title>
+        <rating>4</rating>
+        <facilities>Internet</facilities>
+        <metrostation>2KM</metrostation>
+        <address>Ashoka Road</address>
+        <availability>True</availability>
+        </hotel>
+        <hotel>
+        <title lang="en">Mughal</title>
+        <rating>4</rating>
+        <facilities>Parking</facilities>
+        <metrostation>4KM</metrostation>
+        <address>Pusa Road</address>
+        <availability>True</availability>
+        </hotel>
+    </hotelrating>
+    <hotelrating category="5">
+        <hotel>
+        <title lang="en">Rawada</title>
+        <rating>5</rating>
+        <facilities>Gym,Parking,Cafe,Internet</facilities>
+        <metrostation>1KM</metrostation>
+        <address>Lutyens</address>
+        <availability>False</availability>
+        </hotel>
+    </hotelrating>
+</hotelmgmt>

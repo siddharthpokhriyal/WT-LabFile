@@ -1,0 +1,23 @@
+<html>
+<body>
+<p id="demo"></p>
+<script>
+var parser, xmlDoc;
+var text = "<bookshop><book>" +
+
+  "<title>Indian Delicacies</title>" +
+
+"<author>Veer Sir</author>" +
+
+"<year>2021</year>" +
+
+"</book></bookshop>";
+
+parser = new DOMParser();
+
+xmlDoc = parser.parseFromString(text,"text/xml");
+
+document.getElementById("demo").innerHTML = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+</script>
+</body>
+</html>
