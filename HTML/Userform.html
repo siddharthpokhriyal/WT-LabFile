@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>A form used to set a users preference for links:</h1>
+<form action="/action_page.php">
+  <label for="color">Choose a color for links:</label>
+  <select name="color" id="color">
+    <option value="red">Red</option>
+    <option value="blue">Blue</option>
+    <option value="green">Green</option>
+    <option value="orange">Orange</option>
+  </select>
+  <br><br>
+  <form action="/action_page.php">
+  <p>Underline Links ?</p>
+  <input type="radio" id="yes" name="Yes" value="yes">
+  <label for="yes">Yes</label><br>
+  <input type="radio" id="no" name="No" value="no">
+  <label for="no">No</label><br>
+  <br>  
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+  <hr>
+  <h3>A form used for registration to a forum:</h3>
+  <fieldset>
+  <legend>Register Now</legend>
+  <label for="fname">Name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  
+  <p>Which web browser do you use?(Check all that apply)</p>
+  <input type="checkbox" id="browser1" name="browser1" value="Firefox">
+  <label for="browser1">Firefox</label><br>
+  <input type="checkbox" id="browser2" name="browser2" value="Chrome">
+  <label for="browser2">Chrome</label><br>
+  <input type="checkbox" id="browser3" name="browser3" value="Explorer">
+  <label for="browser3">Explorer</label><br><br>
+  
+  <label for="signature">Enter a forum signature:</label><br><br>
+  <textarea id="signature" name="signature" rows="4" cols="50">
+  </textarea>
+  <br><br>
+  
+  <label for="password">Password:</label>
+  <input type="text" id="password" name="password"><br><br>
+  <label for="re-enter">Re-enter Password:</label>
+  <input type="re-enter" id="re-enter" name="re-enter"><br><br>
+  
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+  
+ </fieldset>
+</form>
+</body>
+</html>
